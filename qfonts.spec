@@ -41,12 +41,10 @@ install -d $RPM_BUILD_ROOT%{_fontsdir}/TTF
 
 install texmf/fonts/truetype/public/qfonts/*.ttf $RPM_BUILD_ROOT%{_fontsdir}/TTF
 
-gzip -9nf texmf/doc/fonts/polish/qfonts/*
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc texmf/doc/fonts/polish/qfonts/*.gz
+%doc texmf/doc/fonts/polish/qfonts/*
 %{_fontsdir}/TTF/*
