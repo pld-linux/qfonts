@@ -6,6 +6,7 @@ Release:	1
 License:	GPL
 Group:		X11/Fonts
 Source0:	ftp://ftp.gust.org.pl/TeX/GUST/contrib/fonts/qfonts/qfnt-tds.zip
+# Source0-md5:	2ee92d9e1a174b66de3a17739e3cd3c9
 BuildRequires:	unzip
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
