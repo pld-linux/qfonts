@@ -2,15 +2,16 @@ Summary:	True Type Quasi Fonts
 Summary(pl):	Fonty Quasi w formacie True Type
 Name:		qfonts
 Version:	1.07
-Release:	1
+Release:	2
 License:	GPL
 Group:		X11/Fonts
 Source0:	ftp://ftp.gust.org.pl/TeX/GUST/contrib/fonts/qfonts/qfnt-tds.zip
 # Source0-md5:	2ee92d9e1a174b66de3a17739e3cd3c9
 BuildRequires:	unzip
+Requires(post,postun):	fontpostinst
+Requires:	%{_fontsdir}/TTF
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
-
 
 %description
 This package contains collection of following True Type fonts:
@@ -42,6 +43,12 @@ install texmf/fonts/truetype/public/qfonts/*.ttf $RPM_BUILD_ROOT%{_fontsdir}/TTF
 
 %clean
 rm -rf $RPM_BUILD_ROOT
+
+%post
+fontpostinst TTF
+
+%postun
+fontpostinst TTF
 
 %files
 %defattr(644,root,root,755)
