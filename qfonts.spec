@@ -5,8 +5,6 @@ Version:	1.05
 Release:	1
 License:	GPL
 Group:		X11/Fonts
-Group(de):	X11/Fonts
-Group(pl):	X11/Fonty
 Source0:	ftp://ftp.gust.org.pl:/TeX/GUST/contrib/fonts/qfonts/qfnt-tds.zip
 BuildRequires:	unzip
 BuildArch:	noarch
