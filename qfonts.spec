@@ -1,11 +1,11 @@
 Summary:	True Type Quasi Fonts
 Summary(pl):	Fonty Quasi w formacie True Type
 Name:		qfonts
-Version:	1.05
+Version:	1.07
 Release:	1
 License:	GPL
 Group:		X11/Fonts
-Source0:	ftp://ftp.gust.org.pl:/TeX/GUST/contrib/fonts/qfonts/qfnt-tds.zip
+Source0:	ftp://ftp.gust.org.pl/TeX/GUST/contrib/fonts/qfonts/qfnt-tds.zip
 BuildRequires:	unzip
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
