@@ -2,9 +2,10 @@ Summary:	True Type Quasi Fonts
 Summary(pl):	Fonty Quasi w formacie True Type
 Name:		qfonts
 Version:	1.07
-Release:	2
+Release:	3
 License:	GPL
 Group:		Fonts
+URL:		http://www.gust.org.pl/fonty/
 Source0:	ftp://ftp.gust.org.pl/TeX/GUST/contrib/fonts/qfonts/qfnt-tds.zip
 # Source0-md5:	2ee92d9e1a174b66de3a17739e3cd3c9
 BuildRequires:	unzip
@@ -20,6 +21,7 @@ This package contains collection of following True Type fonts:
 - QuasiCourier (see 0readme.qco.gz)
 - QuasiHelvetica (see 0readme.qhv.gz)
 - QuasiHelveticaCondensed (see 0readme.qhv.gz)
+- QuasiPalatino (see 0readme.qpl.gz)
 
 %description -l pl
 Pakiet ten zawiera nastêpuj±ce fonty w formacie True Type:
@@ -28,6 +30,7 @@ Pakiet ten zawiera nastêpuj±ce fonty w formacie True Type:
 - QuasiCourier (zobacz 0readme.qco.gz)
 - QuasiHelvetica (zobacz 0readme.qhv.gz)
 - QuasiHelveticaCondensed (zobacz 0readme.qhv.gz)
+- QuasiPalatino (zobacz 0readme.qpl.gz)
 
 %prep
 %setup -q -T -c -n qfonts
