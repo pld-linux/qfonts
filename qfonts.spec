@@ -9,6 +9,7 @@ Group(de):	X11/Fonts
 Group(pl):	X11/Fonty
 Source0:	ftp://ftp.gust.org.pl:/TeX/GUST/contrib/fonts/qfonts/qfnt-tds.zip
 BuildRequires:	unzip
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -28,7 +29,7 @@ Pakiet ten zawiera nastêpuj±ce fonty w formacie True Type:
 - QuasiHelveticaCondensed (zobacz 0readme.qhv.gz)
 
 %prep
-%setup  -q -T -c -n qfonts
+%setup -q -T -c -n qfonts
 unzip -qa %{SOURCE0}
 
 %build
