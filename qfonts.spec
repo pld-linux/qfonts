@@ -4,7 +4,7 @@ Name:		qfonts
 Version:	1.07
 Release:	2
 License:	GPL
-Group:		X11/Fonts
+Group:		Fonts
 Source0:	ftp://ftp.gust.org.pl/TeX/GUST/contrib/fonts/qfonts/qfnt-tds.zip
 # Source0-md5:	2ee92d9e1a174b66de3a17739e3cd3c9
 BuildRequires:	unzip
