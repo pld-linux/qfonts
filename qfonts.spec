@@ -10,6 +10,9 @@ BuildRequires:	unzip
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
+%define		_prefix		/usr/X11R6
+%define		_mandir		%{_prefix}/man
+
 %description
 This package contains collection of following True Type fonts:
 - QuasiBookman (see 0readme.qbk.gz)
