@@ -1,5 +1,5 @@
 Summary:	True Type Quasi Fonts
-Summary(pl):	Fonty Quasi w formacie True Type
+Summary(pl.UTF-8):   Fonty Quasi w formacie True Type
 Name:		qfonts
 Version:	1.07
 Release:	3
@@ -23,8 +23,8 @@ This package contains collection of following True Type fonts:
 - QuasiHelveticaCondensed (see 0readme.qhv.gz)
 - QuasiPalatino (see 0readme.qpl.gz)
 
-%description -l pl
-Pakiet ten zawiera nastêpuj±ce fonty w formacie True Type:
+%description -l pl.UTF-8
+Pakiet ten zawiera nastÄ™pujÄ…ce fonty w formacie True Type:
 - QuasiBookman (zobacz 0readme.qbk.gz)
 - QuasiChancery (zobacz 0readme.qch.gz)
 - QuasiCourier (zobacz 0readme.qco.gz)
