@@ -1,5 +1,5 @@
 Summary:	True Type Quasi Fonts
-Summary(pl.UTF-8):   Fonty Quasi w formacie True Type
+Summary(pl.UTF-8):	Fonty Quasi w formacie True Type
 Name:		qfonts
 Version:	1.07
 Release:	3
