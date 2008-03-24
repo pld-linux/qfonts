@@ -1,5 +1,5 @@
-Summary:	True Type Quasi Fonts
-Summary(pl.UTF-8):	Fonty Quasi w formacie True Type
+Summary:	TrueType Quasi Fonts
+Summary(pl.UTF-8):	Fonty Quasi w formacie TrueType
 Name:		qfonts
 Version:	1.07
 Release:	3
@@ -15,7 +15,7 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-This package contains collection of following True Type fonts:
+This package contains collection of following TrueType fonts:
 - QuasiBookman (see 0readme.qbk.gz)
 - QuasiChancery (see 0readme.qch.gz)
 - QuasiCourier (see 0readme.qco.gz)
@@ -24,7 +24,7 @@ This package contains collection of following True Type fonts:
 - QuasiPalatino (see 0readme.qpl.gz)
 
 %description -l pl.UTF-8
-Pakiet ten zawiera następujące fonty w formacie True Type:
+Pakiet ten zawiera następujące fonty w formacie TrueType:
 - QuasiBookman (zobacz 0readme.qbk.gz)
 - QuasiChancery (zobacz 0readme.qch.gz)
 - QuasiCourier (zobacz 0readme.qco.gz)
